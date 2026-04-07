@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FF6E0"
+    tools:context=".StartExercise">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Exercise"
+        android:textColor="#182b7c"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <ImageView
+        android:layout_width="352dp"
+        android:layout_height="246dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/exercise"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start exercising safely by beginning with 5–30 minutes of light activity like walking, gradually increasing intensity over time.
+         Focus on consistency over intensity, aiming for 150 minutes of moderate activity per week, including strengthening exercises.
+          Prioritize a warm-up, proper form, and listening to your body to avoid injury"
+        android:textAlignment="center"
+        android:textColor="#FD0A2D43"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Regular exercise offers a powerful boost to both your physical and mental health. Physically, it strengthens your heart, helps control weight, and lowers the risk of chronic diseases like type 2 diabetes and certain cancers by improving blood sugar and insulin sensitivity.\n Beyond the physical, staying active is a potent mood lifter; it releases feel-good chemicals like endorphins that reduce stress, anxiety, and symptoms of depression.\n It also sharpens cognitive function, improves sleep quality, and increases overall energy levels by making your cardiovascular system work more efficiently. Ultimately, incorporating movement into your daily life is one of the most effective ways to increase your longevity and maintain independence as you age"
+        android:textAlignment="center"
+        android:textColor="#FD0A2D43"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        />
+
+
+
+    </LinearLayout>
+</ScrollView>

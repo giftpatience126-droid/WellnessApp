@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FF6E0"
+    tools:context=".HealthyRecipes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy Recipes"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#08596B"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image5"
+        android:scaleType="centerCrop"
+        android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FD0A2D43"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:layout_margin="20dp"
+        android:text="Healthy eating doesn't have to be complicated or bland; it’s all about finding a balance between nutrient density and flavor. A great healthy recipe typically centers on whole, unprocessed ingredients like lean proteins, fiber-rich whole grains, and a vibrant variety of vegetables. \n\n To keep things interesting, focus on crowding out less nutritious options by filling your plate with healthy fats—like avocado or olive oil—and using fresh herbs and spices instead of excess salt or sugar to boost the taste. \n\n Whether you're meal prepping a Mediterranean quinoa bowl or whipping up a quick sheet-pan salmon, the goal is to create meals that fuel your body and keep you feeling satisfied."
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Healthy Recipes"
+        android:textColor="@color/white"
+        android:layout_margin="60dp"
+        />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

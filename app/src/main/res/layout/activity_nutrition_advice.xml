@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FF6E0"
+    tools:context=".NutritionAdvice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nutritional Advice"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="#08596B"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image6"
+        android:scaleType="centerCrop"
+        android:layout_margin="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#FD0A2D43"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:text="Achieving optimal health through nutrition involves a conscious shift toward whole, minimally processed foods that provide a high density of micronutrients relative to their calorie content. A foundational approach starts with eating the rainbow, ensuring that a significant portion of every meal consists of diverse vegetables and fruits; these provide the essential antioxidants, vitamins, and minerals necessary for cellular repair and immune function. To sustain energy throughout the day, it is vital to prioritize complex carbohydrates—such as oats, quinoa, and sweet potatoes—which offer a slow release of glucose and high fiber content for gut health, rather than relying on refined sugars that cause energy crashes.\n\n Protein intake should be varied, incorporating plant-based sources like lentils and chickpeas alongside lean proteins to support muscle maintenance and satiety.\n\n Furthermore, focusing on heart-healthy unsaturated fats found in avocados, nuts, and olive oil helps regulate cholesterol levels and supports brain health.\n\n By maintaining consistent hydration with water and significantly reducing the intake of hidden salts and added sugars found in ultra-processed snacks, you can create a sustainable dietary pattern that naturally supports long-term metabolic health and physical vitality."
+        />
+
+
+
+    </LinearLayout>
+</ScrollView>

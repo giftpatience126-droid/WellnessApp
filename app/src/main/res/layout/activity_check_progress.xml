@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FF6E0"
+    tools:context=".CheckProgress">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Progress"
+            android:textSize="30sp"
+            android:textColor="#182b7c"
+            android:textAlignment="center"
+            android:layout_margin="20dp"
+            />
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="196dp"
+            android:layout_margin="40dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/progress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#FD0A2D43"
+            android:fontFamily="casual"
+            android:textSize="20sp"
+            android:text="When checking your progress, it’s best to look beyond just a single number. \n A great progress summary should highlight your consistency (like your current daily streak), your milestones (such as total minutes meditated or steps taken), and your trends over the last week or month.\n\n Instead of focusing only on a final goal, focus on Non-Scale Victories, such as improved sleep quality, lower resting heart rate, or simply completing your daily check-ins. \n This high-level view helps you see how small, daily habits are compounding into long-term health improvements."
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

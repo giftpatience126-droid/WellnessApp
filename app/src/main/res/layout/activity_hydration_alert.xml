@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FF6E0"
+    tools:context=".HydrationAlert">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hydration Alert"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#08596b"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:layout_width="307dp"
+        android:layout_height="268dp"
+        android:layout_margin="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/water" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A hydration alert is a proactive reminder to drink water throughout the day, ensuring optimal health and preventing dehydration-related issues like headaches, fatigue, and poor concentration. Aim to drink water regularly, especially if you experience dark urine, dry mouth, or fatigue"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#FD0A2D43"
+        />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FF6E0"
+    tools:context=".WeeklyGoals">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly Goals"
+        android:textSize="30sp"
+        android:textColor="#182b7c"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        />
+
+    <ImageView
+        android:layout_width="367dp"
+        android:layout_height="320dp"
+        android:layout_margin="20dp"
+        android:scaleType="center"
+        android:src="@drawable/goals" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#FD0A2D43"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:text="Weekly goals are actionable, short-term targets that bridge daily tasks and long-term objectives, typically focusing on 3–5 key priorities to maintain focus, boost productivity, and ensure consistent progress. \n Effective weekly goals should be specific, realistic, and reviewed regularly, such as using the SMART framework (Specific, Measurable, Achievable, Relevant, Time-bound)."
+        />
+
+    </LinearLayout>
+
+</ScrollView>
